@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Den/Android/StopwatchAndTimer/app/src/main/res/layout/activity_main.xml" value="0.17572463768115942" />
         <entry key="..\:/Den/Android/StopwatchAndTimer/app/src/main/res/layout/fragment_main.xml" value="0.16869300911854104" />
+        <entry key="..\:/Den/Android/StopwatchAndTimer/app/src/main/res/layout/fragment_stopwatch.xml" value="0.17572463768115942" />
+        <entry key="..\:/Den/Android/StopwatchAndTimer/app/src/main/res/layout/fragment_timer.xml" value="0.17572463768115942" />
       </map>
     </option>
   </component>
