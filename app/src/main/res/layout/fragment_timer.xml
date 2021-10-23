@@ -42,10 +42,10 @@
 				android:textSize="16sp" />
 
 			<SeekBar
-				android:id="@+id/seekBar22"
+				android:id="@+id/sbMinuts"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				android:max="59"
+				android:max="60"
 				android:progress="0" />
 		</TableRow>
 
@@ -64,7 +64,8 @@
 				android:textSize="16sp" />
 
 			<SeekBar
-				android:id="@+id/seekBar21"
+				android:id="@+id/sbSeconds"
+				style="@style/Widget.AppCompat.SeekBar"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:max="59"
@@ -79,20 +80,28 @@
 			android:padding="8sp">
 
 			<Button
-				android:id="@+id/button6"
+				android:id="@+id/btnStartPause"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:layout_margin="4sp"
 				android:layout_weight="1"
-				android:text="@string/btnStartTimer" />
+				android:layout_marginBottom="4sp"
+				android:layout_marginEnd="4sp"
+				android:layout_marginStart="4sp"
+				android:layout_marginTop="4sp"
+				android:text="@string/btnStartTimer"
+				android:textSize="24sp"/>
 
 			<Button
-				android:id="@+id/button5"
+				android:id="@+id/btnStop"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:layout_margin="4sp"
 				android:layout_weight="1"
-				android:text="@string/btnStopTimer" />
+				android:layout_marginBottom="4sp"
+				android:layout_marginEnd="4sp"
+				android:layout_marginStart="4sp"
+				android:layout_marginTop="4sp"
+				android:text="@string/btnStopTimer"
+				android:textSize="24sp"/>
 
 		</LinearLayout>
 

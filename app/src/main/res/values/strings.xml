@@ -1,5 +1,5 @@
 <resources>
-	<string name="app_name">StopwatchAndTimer</string>
+	<string name="app_name">Stopwatch And Timer</string>
 	<string name="tab_text_1">Stopwatch</string>
 	<string name="tab_text_2">Timer</string>
 	<string name="hello_blank_fragment">Hello blank fragment</string>
