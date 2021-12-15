@@ -116,15 +116,15 @@ public class FragmentTimer extends Fragment {
 							sbMinuts.setProgress(0);
 							isStarted = false;
 							theEnd();
-							showToast("FINISH");
+							showToast(getResources().getString(R.string.toastFinish));
 						}
 					}.start();
 					isStarted = true;
-					btnStartPause.setText("Pause");
+					btnStartPause.setText(R.string.btnPause);
 				}else{
 					theEnd();
 					isStarted = false;
-					btnStartPause.setText("Start");
+					btnStartPause.setText(R.string.btnStart);
 				}
 			}
 		});
@@ -139,6 +139,7 @@ public class FragmentTimer extends Fragment {
 
 				isStarted = false;
 				tvTimer.setText("00:00");
+				btnStartPause.setText(R.string.btnStart);
 			}
 		});
 

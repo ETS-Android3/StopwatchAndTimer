@@ -80,29 +80,22 @@
 			android:padding="8sp">
 
 			<Button
-				android:id="@+id/btnStartPause"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:layout_weight="1"
-				android:layout_marginBottom="4sp"
-				android:layout_marginEnd="4sp"
-				android:layout_marginStart="4sp"
-				android:layout_marginTop="4sp"
-				android:text="@string/btnStartTimer"
-				android:textSize="24sp"/>
-
-			<Button
 				android:id="@+id/btnStop"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
+				android:layout_margin="4dp"
 				android:layout_weight="1"
-				android:layout_marginBottom="4sp"
-				android:layout_marginEnd="4sp"
-				android:layout_marginStart="4sp"
-				android:layout_marginTop="4sp"
-				android:text="@string/btnStopTimer"
-				android:textSize="24sp"/>
+				android:text="@string/btnStop"
+				android:textSize="24sp" />
 
+			<Button
+				android:id="@+id/btnStartPause"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="4dp"
+				android:layout_weight="1"
+				android:text="@string/btnStart"
+				android:textSize="24sp" />
 		</LinearLayout>
 
 	</LinearLayout>

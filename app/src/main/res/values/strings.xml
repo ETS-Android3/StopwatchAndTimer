@@ -2,8 +2,9 @@
 	<string name="app_name">Stopwatch And Timer</string>
 	<string name="tab_text_1">Stopwatch</string>
 	<string name="tab_text_2">Timer</string>
-	<string name="hello_blank_fragment">Hello blank fragment</string>
+	<!-- <string name="hello_blank_fragment">Hello blank fragment</string> -->
 	<string name="tvTimeZero">00:00:000</string>
+
 	<string name="btnStart">Start</string>
 	<string name="btnPause">Pause</string>
 	<string name="btnStop">Stop</string>
@@ -11,8 +12,12 @@
 	<string name="tvTimer">00:00</string>
 	<string name="tvMin">Min</string>
 	<string name="tvSec">Sec</string>
+
+	<string name="toastFinish">FINISH</string>
+	<!--
 	<string name="btnStartTimer">Start</string>
 	<string name="btnStopTimer">Stop</string>
 	<string name="btnPauseTimer">Pause</string>
+	-->
 
 </resources>

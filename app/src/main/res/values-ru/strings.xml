@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Секундомер и Таймер</string>
+	<string name="tab_text_1">Секундомер</string>
+	<string name="tab_text_2">Таймер</string>
+<!---	<string name="hello_blank_fragment">Привет пустой фрагмент</string> -->
+	<string name="tvTimeZero">00:00:000</string>
+
+	<string name="btnStart">Старт</string>
+	<string name="btnPause">Пауза</string>
+	<string name="btnStop">Стоп</string>
+
+	<string name="tvTimer">00:00</string>
+	<string name="tvMin">Мин</string>
+	<string name="tvSec">Сек</string>
+
+	<string name="toastFinish">ФИНИШ</string>
+	<!--
+	<string name="btnStartTimer">Старт</string>
+	<string name="btnStopTimer">Стоп</string>
+	<string name="btnPauseTimer">Пауза</string>
+	-->
+</resources>

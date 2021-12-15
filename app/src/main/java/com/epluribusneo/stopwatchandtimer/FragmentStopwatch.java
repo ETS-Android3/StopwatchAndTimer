@@ -100,7 +100,7 @@ public class FragmentStopwatch extends Fragment {
 				customHandler.removeCallbacks(updateTimeThread);
 				isStarted = false;
 				tvTimerValue.setText("00:00:000");
-				btnStartPause.setText("Start");
+				btnStartPause.setText(R.string.btnStart);
 			}
 		});
 
@@ -136,11 +136,11 @@ public class FragmentStopwatch extends Fragment {
 		if(isStarted){
 			timeSwapBuff += timeInMilliseconds;
 			customHandler.removeCallbacks(updateTimeThread);
-			btnStartPause.setText("Start");
+			btnStartPause.setText(R.string.btnStart);
 		}else{
 			startTime = SystemClock.uptimeMillis();
 			customHandler.postDelayed(updateTimeThread, 0);
-			btnStartPause.setText("Pause");
+			btnStartPause.setText(R.string.btnPause);
 		}
 		isStarted = !isStarted;
 	}
