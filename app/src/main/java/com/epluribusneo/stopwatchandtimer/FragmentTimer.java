@@ -111,12 +111,13 @@ public class FragmentTimer extends Fragment {
 
 						@Override
 						public void onFinish() {
-							//todo
 							sbSeconds.setProgress(0);
 							sbMinuts.setProgress(0);
 							isStarted = false;
 							theEnd();
+
 							showToast(getResources().getString(R.string.toastFinish));
+
 						}
 					}.start();
 					isStarted = true;
@@ -133,13 +134,16 @@ public class FragmentTimer extends Fragment {
 		btnStop.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				sbMinuts.setProgress(0);
-				sbSeconds.setProgress(0);
-				countDownTimer.cancel();
 
-				isStarted = false;
-				tvTimer.setText("00:00");
-				btnStartPause.setText(R.string.btnStart);
+				if(isStarted){
+					sbMinuts.setProgress(0);
+					sbSeconds.setProgress(0);
+					countDownTimer.cancel();
+
+					isStarted = false;
+					tvTimer.setText("00:00");
+					btnStartPause.setText(R.string.btnStart);
+				}
 			}
 		});
 
@@ -180,6 +184,7 @@ public class FragmentTimer extends Fragment {
 	private void theEnd(){
 		isStarted = false;
 		countDownTimer.cancel();
+		btnStartPause.setText(R.string.btnStart);
 	}
 
 }
